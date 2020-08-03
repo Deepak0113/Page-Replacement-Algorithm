@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Page Replacement Algorithm</title>
+</head>
+
+<body>
+  <div class="logo">
+    <h1>Page Replacement Algorithm</h1>
+  </div>
+
+  <div class="input-container">
+    <input class="frames" type="text" name="" id="frm" value="" placeholder="frames">
+    <input class="pgref" type="text" name="" id="pageref" value="" placeholder="page reference">
+  </div>
+
+  <div class="btn-container">
+    <button type="submit" id="fifo">fifo</button>
+    <button type="submit" id="lru">lru</button>
+    <button type="submit" id="optimal">optimal</button>
+  </div>
+
+  <div class="data-container">
+    <span id="refspan"></span><br>
+    <span id="frmspan"></span>
+  </div>
+
+  <div class="table-container" id="tbcont">
+    <table class="table" id="frame">
+    </table>
+  </div>
+
+  <div class="result">
+    <span id="hit"></span>
+    <span id="pgfault"></span>
+  </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
