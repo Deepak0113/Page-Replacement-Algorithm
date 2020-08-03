@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    padding: 10px;
+    letter-spacing: 1px;
+    /*background-color: aqua;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-container{
+    padding: 20px;
+   /* background-color: violet;*/
+}
+
+.btn-container{
+    padding: 20px;
+    /*background-color: yellow;*/
+}
+
+.table-container{
+    padding: 20px;
+    /*background-color: yellowgreen;*/
+}
+
+.input-container input{
+    padding: 5px 5px 5px 10px;
+    margin-right: 10px;
+    height: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px #725be7 solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-container input::placeholder{
+    text-transform: capitalize;
+    color: rgb(143, 143, 143);
+}
+
+.input-container .frames{
+    width: 150px;
+    
+}
+
+.input-container .pgref{
+    width: 450px;
+}
+
+.input-container input:focus{
+    border: 2px rgb(8, 218, 8) solid;
+    transition: .15s ease;
+}
+
+.btn-container button{
+    margin-right: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: 1.5px #725be7 solid;
+    color: #725be7;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: .2s ease-in;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-container button:hover{
+    background-color: #725be7;
+    color: #fff;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 1em;
+    min-width: 400px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr{
+    background-color: #725be7;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table th, .table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #725be7;
+}
+
+span{
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.data-container{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.result{
+    padding: 10px;
+}
